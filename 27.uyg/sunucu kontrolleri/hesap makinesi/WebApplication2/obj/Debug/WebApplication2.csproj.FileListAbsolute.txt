@@ -1,0 +1,10 @@
+C:\Users\öznur\Desktop\sunucu kontrolleri\hesap makinesi\WebApplication2\bin\WebApplication2.dll
+C:\Users\öznur\Desktop\sunucu kontrolleri\hesap makinesi\WebApplication2\bin\WebApplication2.pdb
+C:\Users\öznur\Desktop\sunucu kontrolleri\hesap makinesi\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\öznur\Desktop\sunucu kontrolleri\hesap makinesi\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\öznur\Desktop\sunucu kontrolleri\hesap makinesi\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\öznur\Desktop\uygulamalar\27.uyg\sunucu kontrolleri\hesap makinesi\WebApplication2\bin\WebApplication2.dll
+C:\Users\öznur\Desktop\uygulamalar\27.uyg\sunucu kontrolleri\hesap makinesi\WebApplication2\bin\WebApplication2.pdb
+C:\Users\öznur\Desktop\uygulamalar\27.uyg\sunucu kontrolleri\hesap makinesi\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\öznur\Desktop\uygulamalar\27.uyg\sunucu kontrolleri\hesap makinesi\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\öznur\Desktop\uygulamalar\27.uyg\sunucu kontrolleri\hesap makinesi\WebApplication2\obj\Debug\WebApplication2.pdb
