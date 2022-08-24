@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+function topla(){
+	var a=document.getElementById("sayi1").value;
+	var b=document.getElementById("sayi2").value;
+	var toplam=parseInt(a)+parseInt(b);
+	alert(toplam);
+	};
+</script>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <p>
+    <label for="sayi1">SAYI 1</label>
+    <input type="text" name="sayi1" id="sayi1" />
+  </p>
+  <p>
+    <label for="sayi2">SAYI 2</label>
+    <input type="text" name="sayi2" id="sayi2" />
+  </p>
+  <p>
+    <input type="button" name="toplam" id="toplam" onclick="topla();" value="TOPLAM" />
+  </p>
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body onload="alert('sayfamıza hoş geldiniz.');" unonload="alert('yine bekleriz...');" onresize="alert('boyutu değiştirdiniz.');">
+<form id="form1" name="form1" method="post" action="">
+  <p>
+    <label for="ad">Adınız:</label>
+  <input type="text" name="ad" id="ad" onfocus="alert('metin giriniz')" onselect="alert('metni seçtiniz')"/>
+  </p>
+  <p>
+    <label for="eposta">E-Posta giriniz:</label>
+    <input type="text" name="eposta" id="eposta" />
+  </p>
+  <p>Sitemize girmek için <a href="anasayfa.html" target="_blank" onclick="alert('anasayfaya yönlendiriliyorsunuz')">TIKLAYINIZ</a></p>
+  <p>
+    <input type="submit" name="tamam" id="tamam" value="TAMAM" />
+    <input type="reset" name="sil" id="sil" value="SİL" />
+  </p>
+</form>
+</body>
+</html>

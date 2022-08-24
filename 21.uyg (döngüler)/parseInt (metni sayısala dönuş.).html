@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+var sayi1,sayi2,secim;
+sayi1=prompt("1.sayıyı giriniz:");
+sayi2=prompt("2.sayıyı giriniz:");
+secim=prompt("Toplama yaplam için +; Çıkarma yapmak için -; Bölme yapmak için /; Çarpma yapmak için * tuşuna basınız. ");
+switch(secim)
+{
+	case"+":
+	document.write(parseInt(sayi1)+parseInt(sayi2));//parseInt toplama işlemi yapılmasını sğlar çunku javascript "" içindeki değerleri metin olarak aldığı için parseInt ile sayısal değere dönüştürür.
+	break;
+	case"-":
+	document.write(sayi1-sayi2);
+	break;
+	case"/":
+	document.write(sayi1/sayi2);
+	break;
+	case"*":
+	document.write(sayi1*sayi2);
+	break;
+	default:
+	alert("Yanlış Seçim");
+	break;
+	}
+
+</script>
+</head>
+
+<body>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" language="javascript">
+window.defaultStatus("MERHABA");//durum çubuğunda mesaj verir
+function kapat()
+{
+	var karar=confirm('SAYFADAN ÇIKMAK İSTEDİĞİNİZE EMİNMİSİNİZ?');//açılan onay penceresine tamam denirse işlem devam edecek
+if(karar)//true
+	{
+	alert("YİNE BEKLERİZ");
+	window.close();//aktif olan sayfayı kapatır
+	}
+else//false
+	{
+	alert("BİZİMLE KALDIĞINIZ İÇİN TEŞEKKÜR EDERİZ.");
+	}}
+function baglanti()
+{
+	window.open("http://www.mtegm.meb.gov.tr/");//yeni pencerede bağlantı açar.
+	}
+function pencereAc()
+	{
+		yeniPencere=window.open('','','width=200,height=100');
+		yeniPencere.document.write("bu sayfa yeni oluşturuldu");
+		}
+</script>
+</head>
+<body>
+
+<input type="button" name="kapat" id="kapat" value="KAPAT" onclick="kapat()" />
+<input type="button" value="MTEGM" onclick="baglanti()"/><br />
+<input type="button" value="yazdır" onclick="window.print()"/> yazdırma penceresini açar.<br />
+<input type="button" value="bul" onclick="window.find()"/> arama penceresini açar.(coğu tarayıcı desteklemiyor)<br />
+<input type="button" value="aç" onclick="pencereAc()"/> 200 100 boyutlarında pencere acar.<br />
+<input type="button" value="TAŞI" onclick="window.moveTo(400,300)"/> istenen kordinata taşıma olur (chrome desteklemiyor)<br />
+</body>
+</html>

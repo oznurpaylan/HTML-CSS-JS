@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.s1{
+	float:left;
+	width:50px;
+	background:#f96;
+	border:#fff 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+	}
+.s2{
+	float:left;
+	width:50px;
+	background:#609;
+	border:#fff 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+	}
+.stil{
+	background-color:#3f6;
+	font-weight:bold;
+	}
+</style>
+<script type="text/javascript" language="javascript">
+function degistir()
+{
+	document.getElementById("bir").style.backgroundColor="#609";
+	document.getElementById("iki").style.backgroundColor="#f96";
+	};
+</script>
+</head>
+
+<body>
+<div id="bir" class="s1">alan1</div>
+<div id="iki" class="s2">alan2</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form id="form1" name="form1" method="post" action="">
+<input type="submit" name="degis" id="degis" value="Renk Değiştir" class="stil" onfocus="degistir()"/>
+</form>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

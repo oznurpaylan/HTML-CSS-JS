@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+document.write("diziden eleman silme"+"<br/>");
+var sayilar=new Array("1","2","3","4","5","6");
+document.write(sayilar+"<br/>");
+sayilar.splice(1,2);//splice dizide hem sayı siler hem de sayı eklemeye yarar dizi içinde nereye istersen
+document.write(sayilar+"<br/>");
+document.write("dizinin eleman sayısı: "+sayilar.length+"<br/>");
+
+document.write("diziye eleman ekleme"+"<br/>");
+var rakamlar=new Array("0","1","2","3","4","5");
+document.write(rakamlar+"<br/>");
+rakamlar.splice(4,0,"6","7");//0 ekleme yapılacağı için. 4 den önce 6 ve 7 yi ekler
+document.write(rakamlar+"<br/>");
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

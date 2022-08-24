@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_effectAppearFade(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+function MM_effectBlind(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoBlind(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
+}
+function MM_effectGrowShrink(targetElement, duration, from, to, toggle, referHeight, growFromCenter)
+{
+	Spry.Effect.DoGrow(targetElement, {duration: duration, from: from, to: to, toggle: toggle, referHeight: referHeight, growCenter: growFromCenter});
+}
+function MM_effectHighlight(targetElement, duration, startColor, endColor, restoreColor, toggle)
+{
+	Spry.Effect.DoHighlight(targetElement, {duration: duration, from: startColor, to: endColor, restoreColor: restoreColor, toggle: toggle});
+}
+function MM_effectShake(targetElement)
+{
+	Spry.Effect.DoShake(targetElement);
+}
+function MM_effectSquish(targetElement)
+{
+	Spry.Effect.DoSquish(targetElement);
+}
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+</head>
+
+<body onerror="MM_openBrWindow('1.Tasarımın Temel İlkeleri.pdf','','toolbar=yes,status=yes,menubar=yes,scrollbars=yes,width=200,height=200')">
+<p onclick="MM_effectAppearFade(this, 1000, 100, 0, false)"><strong>Appear/Fadde:</strong> Souktan aktife/Aktiften soluğa</p>
+<p onclick="MM_effectBlind(this, 1000, '100%', '0%', false)"><strong>Blind:</strong> Yanıp sönme-İçeri sakla</p>
+<p onclick="MM_effectGrowShrink(this, 1000, '0%', '100%', false, false, true)"><strong>Grow/Shrink:</strong> Büyültme/Küçültme</p>
+<p onclick="MM_effectHighlight(this, 1000, '#FF0000', '#0000FF', '#33FF00', false)"><strong>Highlight:</strong> Reklendirme</p>
+<p onclick="MM_effectShake(this)"><strong>Shake:</strong> Salla</p>
+<p onclick="MM_effectSquish(this)"><strong>Squish: </strong>Animasyonlu olarak giderek küçültür</p>
+<p ondblclick="MM_goToURL('parent','aaaaa.pdf');return document.MM_returnValue"><strong><em>teknik resim mesleki çizimler modülü için tıklayınız...</em></strong></p>
+<p ondblclick="MM_goToURL('parent','aaaaa.jpg');return document.MM_returnValue"><strong><em>resim açmak için tıklayınız...</em></strong></p>
+<p ondblclick="MM_goToURL('parent','aaaaa.docx');return document.MM_returnValue"><strong><em>word dosyası için tıklayınız....</em></strong></p>
+<p ondblclick="MM_goToURL('parent','aaaaa.mp3');return document.MM_returnValue"><strong><em ondblclick="MM_goToURL('parent','aaaaa.mp3');return document.MM_returnValue">ses için tıklayınız....</em></strong></p>
+<p ondblclick="MM_goToURL('parent','aaaaa.mp4');return document.MM_returnValue"><strong><em>video için tıklayınız...</em><em></em></strong></p>
+<p onclick="MM_openBrWindow('aaaaa.jpg','','toolbar=yes,status=yes,menubar=yes,width=300,height=300')"><strong><em>pencere aç...</em></strong></p>
+<p onmouseover="MM_popupMsg('Hoşgeldin...')">&nbsp;</p>
+</body>
+</html>
