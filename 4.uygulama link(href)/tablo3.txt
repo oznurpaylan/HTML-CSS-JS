@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body bgcolor="aqua">
+<table border="5" bordercolor="pink" background="wrapper.jpg">
+<tr>
+<td bgcolor="purple"><font size=10 color=red face=calibri><b>Okul Adý</td>
+<td bgcolor="gray"><font size=10 color=red face=calibri><b>Okul Tabaný</td>
+<td bgcolor="purple"><font size=10 color=red face=calibri><b>Okul Tavaný</td>
+<td bgcolor="gray"><font size=10 color=red face=calibri><b>Adres</td>
+</tr></b></font>
+<tr>
+<td><font size=5 color=yellow face=calibri><i>Tarýk Buðra</td>
+<td><font size=5 color=yellow face=calibri><i>326</td>
+<td><font size=5 color=yellow face=calibri><i>400</td>
+<td><font size=5 color=yellow face=calibri><i>Pendik</td>
+</tr></i></font>
+<tr>
+<td><font size=5 color=yellow face=calibri><i>Melek Aknil</td>
+<td><font size=5 color=yellow face=calibri><i>285</td>
+<td><font size=5 color=yellow face=calibri><i>350</td>
+<td><font size=5 color=yellow face=calibri><i>Pendik</td>
+</tr></i></font>
+</body>
+</html>

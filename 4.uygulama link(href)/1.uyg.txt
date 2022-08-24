@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>karýþýk uygulamalar</title>
+</head>
+<body bgcolor="aqua">
+<a href="http://www.meb.gov.tr"target"="_blank">Milli Eðitim Bakanlýðý</a>
+</body>
+</html>
