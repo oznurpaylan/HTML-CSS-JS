@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="SpryAssets/SpryValidationPassword.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationPassword.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <p>Üyelik Bilgileri</p>
+  <p>
+    <label for="ad4">Adı(*):</label>
+    <input type="text" name="ad" id="ad4" />
+    <label for="soyad">Soyadı(*): </label>
+    <input type="text" name="soyad" id="soyad" />
+  </p>
+  <p>Cinsiyet: 
+    <input type="radio" name="radio" id="cinsiyet" value="cinsiyet" />
+    <label for="cinsiyet">Kadın</label>
+    <input type="radio" name="radio" id="cinsiyet2" value="cinsiyet" />
+    <label for="cinsiyet2">Erkek</label>
+  </p>
+  <p>Doğum Tarihi:  
+    <label for="dogum">
+  GÜN</label>
+    <select name="dogum" id="dogum">
+    </select>
+    <label for="dogum">AY</label>
+    <select name="dogum2" id="dogum">
+    </select>
+    <label for="dogum">YIL</label>
+    <select name="dogum3" id="dogum">
+    </select>
+  </p>
+  <p>
+    <label for="kullancı">Kullanıcı Adı (*): </label>
+    <input type="text" name="kullancı" id="kullancı" />
+  </p>
+  <p><span id="sprypassword1">
+  <label for="parola">Parola(*):</label>
+  <input type="password" name="parola" id="parola" />
+  </span> En az 6 karakter uzunluğunda ve en az 2 harf içermeli.</p>
+  <p><span id="sprypassword2">
+  <label for="parola">Parola Tekrar(*):</label>
+  <input type="password" name="parola2" id="parola" />
+  </span></p>
+  <p>
+    <label for="posta">E-Posta Adresi (*):</label>
+    <input type="text" name="posta" id="posta" />
+  </p>
+  <p>&nbsp;
+    <input type="Submit" name="button" id="button" value="Gönder" />
+  </p>
+</form>
+<script type="text/javascript">
+var sprypassword1 = new Spry.Widget.ValidationPassword("sprypassword1");
+</script>
+</body>
+</html>
