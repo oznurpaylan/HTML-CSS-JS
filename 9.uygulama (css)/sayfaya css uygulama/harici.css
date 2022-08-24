@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+h1
+{
+	color:#093;
+	font-weight:bold;
+    font-style:italic;
+	background:#CF9;
+}
+h3
+{
+	color:#06C;
+	font-weight:normal;
+    font-style:oblique;
+	background:#F9F;
+}
+	
