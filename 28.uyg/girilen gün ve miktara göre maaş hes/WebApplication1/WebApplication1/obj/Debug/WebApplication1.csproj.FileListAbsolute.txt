@@ -1,0 +1,4 @@
+C:\Users\öznur\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\öznur\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\öznur\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\öznur\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
