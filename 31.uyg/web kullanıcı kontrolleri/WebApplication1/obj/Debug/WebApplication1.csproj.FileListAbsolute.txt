@@ -1,0 +1,12 @@
+C:\Users\öznur\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\öznur\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\öznur\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\öznur\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\öznur\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\HP\Desktop\uygulamalar c# html css js\31.uyg\web kullanıcı kontrolleri\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\HP\Desktop\uygulamalar c# html css js\31.uyg\web kullanıcı kontrolleri\WebApplication1\bin\WebApplication1.dll
+C:\Users\HP\Desktop\uygulamalar c# html css js\31.uyg\web kullanıcı kontrolleri\WebApplication1\bin\WebApplication1.pdb
+C:\Users\HP\Desktop\uygulamalar c# html css js\31.uyg\web kullanıcı kontrolleri\WebApplication1\obj\Debug\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\uygulamalar c# html css js\31.uyg\web kullanıcı kontrolleri\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\uygulamalar c# html css js\31.uyg\web kullanıcı kontrolleri\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\HP\Desktop\uygulamalar c# html css js\31.uyg\web kullanıcı kontrolleri\WebApplication1\obj\Debug\WebApplication1.pdb
